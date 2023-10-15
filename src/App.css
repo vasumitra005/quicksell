@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+#bg {
+  background-color: #F2F3F4;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  padding: 20px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.select-box{
+  border: 1px solid  #F2F3F4;
+  border-radius: 6px;
+  width: 15%;
+  margin-top: 8px;
+  padding: 5px;
+  position:relative;
+  background-color: #F2F3F4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#displayBtn{
+  margin-top: 3%;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.columns {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
 }
 
-.App-link {
-  color: #61dafb;
+.column {
+  flex: 1;
+  padding: 10px;
+  /* box-sizing: border-box; */
+  /* border: 1px solid #ccc; */
+  /* margin: 5px; */
+  text-align: center;
+  /* background-color: #f9f9f9; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heading{
+  display:flex;
+  margin-bottom: 10px;
+  /* border: 1px solid black; */
+  position:relative
+}
+
+.heading-right{
+  display: flex;
+  position: absolute;
+  right:0;
+  /* border: 1px solid black; */
+  margin-right: 2%;
+  
+}
+
+h2 {
+  margin: 0;
+}
+
+.disabledBtn{
+  display:flex;
+  margin-top: 5px;
+}
+
+
+
+.card{
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.ticket-id{
+  text-align: left;
+  color:#99A3A4;
+}
+
+.ticket-title{
+  text-align: left;
+}
+
+#btn1{
+  
+  font-weight: 900;
+  border: 0.5px solid #CACFD2;
+  margin-bottom:3px;
+  margin-right: 5px ;
+}
+
+#btn2{
+  /* margin-inline-start: 5px; */
+  border: 0.5px solid #CACFD2;
+  margin-bottom:3px;
 }
